@@ -10,7 +10,7 @@ class App extends Component {
 		content:[]
 	}
 	componentWillMount() {
-
+		
 	};
 	handleSubmitComment(e) {
 		// this.state.content.push(e)
@@ -51,11 +51,11 @@ const mapDispatchToProps = (dispatch) => {
 }
 
 // 和上面的等同
-const mapDispatchToProps = (dispatch) => {
-  return {
-    submit: bindActionCreators(addComment(data),dispatch)
-  };
-}
+// const mapDispatchToProps = (dispatch) => {
+//   return {
+//     submit: bindActionCreators(addComment(data),dispatch)
+//   };
+// }
 
 // const mapDispatchToProps = {
 // 	handleSubmitComment: (ev) => {
