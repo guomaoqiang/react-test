@@ -14,11 +14,13 @@ import {
 // } from 'react-router-dom';
 
 import app  from './app';
+import tree from './tree';
 
 const route = () => {
 	return (
 		<Router history={hashHistory}>
 			<Route path='/app' component={app}/>
+			<Route path='/tree' component={tree}/>
 		</Router>
 	)
 }
